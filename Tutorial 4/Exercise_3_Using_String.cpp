@@ -21,6 +21,6 @@ int main()
         }
     }
 
-    cout <<"Equivalent ecimal number is: "<<result <<endl;
+    cout <<"Equivalent decimal number is: "<<result <<endl;
 
 }
