@@ -11,7 +11,7 @@ int main()
 
     cin >> binaryNumber;
 
-    int divisionResult = 1, remainder = 0, result = 0;
+    int result = 0;
 
     // Initializing base value to 1, i.e 2^0
     int base = 1;
