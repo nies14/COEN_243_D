@@ -2,19 +2,26 @@
 
 using namespace std;
 
+
 int main()
 {
-    cout <<"Enter how many stars you want to print: " << endl;
+    int x;
 
-    int n;
-    cin >> n;
-
-    for(int i=0; i<n;i++)
+    for (int i=1; i <=5; i++)
     {
-        cout <<"*";
+        cout <<"Enter how many stars you want to print: " << endl;
+
+        cin >> x;
+
+        for(int i = 1; i <= x; i++)
+        {
+            cout << "*";
+        }
+
+        cout << endl;
     }
 
-    cout <<endl;
-    
 
 }
+
+
