@@ -6,9 +6,9 @@ unsigned int seconds(unsigned int, unsigned int, unsigned int); // function prot
 
 int main() 
 {
-   unsigned int hours{0}; // current time's hours
-   unsigned int minutes{0}; // current time's minutes
-   unsigned int secs{0}; // current time's seconds
+   unsigned int hours = 0; // current time's hours
+   unsigned int minutes = 0; // current time's minutes
+   unsigned int secs = 0; // current time's seconds
 
    cout << "Enter the first time as three integers: ";
    cin >> hours >> minutes >> secs;
