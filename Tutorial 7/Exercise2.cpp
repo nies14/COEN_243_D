@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int towerOfHanoi(int numberOfDisk)
-{
-
-}
-
 int fibonacci(int n)
 {
     if(n == 1 || n == 2)
