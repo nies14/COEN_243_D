@@ -35,6 +35,13 @@ int towerOfHanoi(int n, char source, char destination, char auxiliary)
 
 int main() 
 {
-    cout << towerOfHanoi(4, 'A', 'B', 'C') <<endl;
+    //cout << towerOfHanoi(4, 'A', 'B', 'C') <<endl;
+
+    int x;
+    for(x = 0; x < 5; ++x);
+    {
+        cout << x<< endl;
+    }
+
     return 0;
 } 
