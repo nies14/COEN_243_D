@@ -8,17 +8,22 @@ using namespace std;
 int prime[1010];
 
 void detectPrimewithoutSieve(int n)
-{
-    bool isPrime = true;
+{    
     for(int i = 2; i < n ; i++)
     {
-        if (n % i == 0)
+        bool isPrime = true;
+        for (int j = 2; j < i ; j++)
         {
-            isPrime = false;
+            if (i % j == 0)
+            {
+                isPrime = false;
+                cout << i << " is not prime" << endl;
+                prime[i] = 1;
+                break;
+            }
         }
     }
-
-    cout << boolalpha << isPrime << endl;
+    //cout << boolalpha << isPrime << endl;
 }
 
 void sieveOfEratosthenes(int n)
