@@ -18,7 +18,7 @@ int main()
     {
         inFile >> output;
 
-        //u can modify the string which to be written in ur copy test file like this
+        //u can modify the string which to be written in ur copy text file like this
         output += " test";
         // Output the text from the file
         copyFile << output << endl;
